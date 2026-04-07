@@ -12,7 +12,7 @@
     <nav>
         <div class="navbarre">
             <div id="logo">
-                <img src="/public/img/banniere.jpg">
+                <img  id= "banniere"src="/public/img/banniere.jpg">
             </div>
             <input type="checkbox" id="nav-toggle" class="nav-toggle">
             <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu">
