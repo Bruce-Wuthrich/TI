@@ -4,28 +4,27 @@ body {
     margin: 0;
     color: black;
 }
+
 .banniere img {
-border-radius: 10px;
-width: 1900px;
-height: 200px;
+    border-radius: 10px;
+    width: 1900px;
+    height: 200px;
 
 }
-.all {
-    display: grid ;
-    grid-template-columns: 1fr 1fr;
-    
-}
+
+
 nav {
     text-decoration: none;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex: column;
-    
-    
+
+
 }
-h1 { background-color: beige;
+
+h1 {
+    background-color: beige;
     border-radius: 30px;
     width: 200px;
     justify-content: center;
@@ -36,7 +35,7 @@ h1 { background-color: beige;
     position: absolute;
     left: 800px;
     top: 50px;
-    
+
 }
 
 .menu {
@@ -45,30 +44,36 @@ h1 { background-color: beige;
     weight: 50px;
     color: black;
     font-size: 1 em;
-    font-weight: 100 ;
+    font-weight: 100;
     border-radius: 10px;
     border: 2px solid black;
     width: 300px;
     text-align: center;
+    margin: 5px;
 }
 
 nav ul li {
     list-style: none;
-    padding:  1em;
+    padding: 1em;
     display: flex;
     text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    
-    
-}
-nav ul li a {
-    text-decoration: none;
+    font-weight: bold;
+
 
 }
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
 .nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     display: none;
     flex-direction: column;
@@ -78,6 +83,7 @@ nav ul li a {
     cursor: pointer;
     margin-left: auto;
 }
+
 .nav-toggle-label span {
     display: block;
     height: 3px;
@@ -87,14 +93,22 @@ nav ul li a {
 
 .acceuil {
     background-color: lightgrey;
-    justify-content: center; 
+    justify-content: center;
     text-align: center;
     width: 800px;
-    border-radius: 10px ;
-    display: inline-block;
+    margin: 10px;
 
 }
 
+.acceuil img {
+    width: 200px;
+}
+
+.acceuil h2 {
+    background-color: #880101;
+}
+
+
 .red p {
     color: red;
-} 
+}
