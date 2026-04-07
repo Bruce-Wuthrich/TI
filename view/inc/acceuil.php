@@ -25,7 +25,7 @@
                         <span class="hamburgerline"></span>
                     </label>
                     <ul id="liens">
-                        <li><a href="acceuil.php">Accueil</a></li>
+                        <li id="rouge"><a href="acceuil.php">Accueil</a></li>
                         <li><a href="geographie.php">Geographie</a></li>
                         <li><a href="histoire.php">Histoire</a></li>
                         <li><a href="culture.php">Culture</a></li>
