@@ -31,7 +31,7 @@
             </div>
     </nav>
     <main>
-        <div class= "main">
+        <div class= "acceuil">
             <h2>Bienvenue sur notre site consacré à Athènes</h2>
             <img src="/public//img/armoiries.png">
             <p>Athènes est la capitale et la plus grande ville de la Grèce. En 2011, elle compte 664 046 habitants intra-muros sur une superficie de 39 km². Son aire urbaine, le Grand Athènes, qui comprend notamment le port du Pirée, en compte plus de 4 millions. Berceau de la civilisation occidentale et dotée d'un riche passé, la ville est aujourd'hui le cœur politique, économique et culturel de la République hellénique, dont elle accueille la plupart des institutions, comme le Parlement, la Cour de cassation et le siège du Gouvernement.
@@ -42,10 +42,15 @@
 
             La ville s'étend sur la plaine d'Attique, sur les rives de la mer Égée. Elle est le chef-lieu du district régional d'Athènes-Centre et la capitale de la périphérie d'Attique, mais aussi celle du diocèse décentralisé du même nom. Le quartier le plus ancien, Pláka, est situé en contrebas de l'Acropole et comprend notamment la place Monastiráki. Kolonáki est le quartier huppé, à proximité de la place Syntagma. Enfin, Exárcheia est le quartier alternatif et branché de la ville, foyer de l'anarchisme en Grèce et de la contestation populaire depuis la crise. Grâce à son climat méditerranéen et ses nombreux musées, comme le musée de l'Acropole ou le musée national archéologique, Athènes est l'une des principales destinations touristiques d'Europe. En 1985, elle a été désignée comme capitale européenne de la culture et en 2018, comme capitale européenne de l'innovation. Elle a également accueilli les Jeux olympiques d'été en 1896 et en 2004.</p>
             <p>Danse se site,vous trouvez diverses informations concernant</p>
-
-
-
-
+            <div class="red">
+                <p>une brève presentation de Athènes sur son rôle en Grèce er dans le monde</p>
+                <p>Un rappel historique,de sa fonction à aujourd'hui</p>
+                <p>Un Tour d'horizon en matière d'art et culture</p>
+                <p>Une galerie de photographies</p>
+                <p>Un formulaire Pour nous contact</p>
+                <p>Des liens Vers des sites partenaires</p>
+            </div>
+           <p>Source: <a href="https://fr.wikipedia.org/wiki/Athènes"> Wikipedia - Ville d'Athènes</p></a>
         </div>
     </main>
     
