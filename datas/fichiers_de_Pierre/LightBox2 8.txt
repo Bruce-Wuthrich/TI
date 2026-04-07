@@ -1,0 +1,27 @@
+Comment utiliser LightBox2
+--------------------------
+
+1. Décompresser le fichier zip et regarder l'exemple qui est inclus dans le dossier /examples
+
+2. Inclure le Lightbox CSS et Javascript. On peut récupérer ces deux fichiers à partir du dossier /dist
+
+3. Inclure le CSS en haut de la page dans le <head> : <link href="dist/css/lightbox.css" rel="stylesheet" />
+
+4. Inclure le Javascript en bas de la page avant la balise </body> : <script src="dist/js/lightbox.js"></script>
+NB : Si vous n'utilisez pas  jQuery, Inclure dist/js/lightbox-plus-jquery.js au lieu de dist/js/lightbox.js
+
+5. Pour mettre LightBox sur une seule image : 
+Ajouter un attribut data-lightbox à n'importe quel lien d'image pour activer Lightbox. 
+Pour la valeur de l'attribut, utilisez un nom unique pour chaque image. 
+Par exemple: 
+<a href="images/image-1.jpg" data-lightbox="image-1" data-title="Légende Image 1" data-alt="Description"><img src="images/photo-1.jpg" alt="Photo 1"></a>
+
+6. Pour mettre LightBox sur un ensemble d'images : 
+Même chose, mais utiliser la même valeur d'attribut data-lightbox pour toutes les images. 
+Par exemple :
+<a href="images/image-2.jpg" data-lightbox="roadtrip">Image #2</a>
+<a href="images/image-3.jpg" data-lightbox="roadtrip">Image #3</a>
+<a href="images/image-4.jpg" data-lightbox="roadtrip">Image #4</a>
+
+
+
