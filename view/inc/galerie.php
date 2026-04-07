@@ -29,6 +29,20 @@
                 </ul>
             </div>
     </nav>
+    <main>
+        <div class="galerie">
+            <h2>Galerie Photo</h2>
+            <img src="/public/img/480px_Acropole_Caryatides.jpg" alt="">
+            <img src="/public/img/480px_Attica_Athens_View_from_Acropolis_Hill.jpg" alt="">
+            <img src="/public/img/480px_monument.jpg" alt="">
+            <img src="/public/img/480px_Odeon_of_Herodes_Atticus.jpg" alt="">
+            <img src="/public/img/480px_Temple_of_Zeus_in_Athens.jpg" alt="">
+            <img src="/public/img/480px_View_of_the_Acropolis_Athens.jpg" alt="">
+
+
+
+        </div>
+    </main>
     
 </body>
 </html>

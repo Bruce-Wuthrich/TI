@@ -29,6 +29,32 @@
                 </ul>
             </div>
     </nav>
+    <main>
+        <div class="liens">
+            <h2>Quelques Liens vers nos partenaires</h2>
+            <img src="/public/img/liens.jpg" alt="">
+            <div class="Lien capital">
+            <a href="">Berlin</a>
+            <a href="">Vienne</a>
+            <a href="">Paris</a>
+            <a href="">Madrid</a>
+            <a href="">Rome</a>
+            <a href="">Londres</a>
+            <a href="">Lisbonne</a>
+            <a href="">Prague</a>
+            <a href="">Amsterdam</a>
+            <a href="">Copenhague</a>
+            <a href="">Dublin</a>
+            <a href="">Bruxelles</a>
+            <a href="">Sofia</a>
+            <a href="">Varsovie</a>
+            <a href="">Helsinki</a>
+            <a href="">Stockholm</a>
+            <a href="">Olso</a>
+            <a href="">Budapest</a>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>

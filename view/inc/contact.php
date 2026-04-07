@@ -29,6 +29,26 @@
                 </ul>
             </div>
     </nav>
-    
+    <main>
+        <div class="contact"> 
+            <h2>Pour nous contacter</h2>
+                <img src="/public/img/contacts.jpg" alt="">
+                <div class=" formulaire">
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom">
+                    <label for="prenom">Prenom:</label>
+                    <input type="text" id="prenom" name="prenom">
+                    <label for="Ville">Ville:</label>
+                    <input type="text" id="ville" name="ville">
+                    <label for="Email">Email:</label>
+                    <input type="text" id="Email" name="Email">
+                    <label for="Votre commentaire">Commentaires:</label>
+                    <textarea name="Votre commentaire" id="Votre commentaire"></textarea>
+                </div>
+                <div class="button envoyer">
+                   <Button>Envoyer votre message</Button> 
+                </div>
+        </div>
+    </main>
 </body>
 </html>
