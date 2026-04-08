@@ -1,4 +1,4 @@
-<div class="contenu-page">
+<div class="contenu-page" id="top">
 
     <h2 class="titre-page">Histoire</h2>
 
@@ -70,4 +70,7 @@
 
         En 1985, Athènes a été déclarée capitale culturelle de l'Europe.
     </p>
+    <div class="monter">
+    <a href="#top">↑</a>
+    </div>
 </div>

@@ -1,5 +1,5 @@
 
-  <div class="contenu-page">
+  <div class="contenu-page" >
 
     <h2 class="titre-page">Liens pour rejoindre les autres capitales</h2>
 

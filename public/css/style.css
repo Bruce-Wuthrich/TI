@@ -427,3 +427,22 @@ body {
         width: calc(50% - 10px);
     }
 }
+
+.monter a  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 2em;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.monter a:hover {
+     background: linear-gradient(to right, rgb(54, 67, 80) 30%, rgb(160, 13, 13) 70%);
+    color: white;
+}
