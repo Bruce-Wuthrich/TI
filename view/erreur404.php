@@ -1,28 +1,16 @@
-<?php
-if(!isset($_GET['p'])){
+<div class="contenu-page">
 
+    <h2 class="titre-page">Erreur 404</h2>
 
- include ROOT_PATH."/view/inc/menu.php";
+    <div class="img-centree">
+        <img src="img/404.jpg" >
+    </div>
 
-}elseif(in_array($_GET['p'],ARRAY_VALID_PAGES)){
+    <p>
+        La page que vous recherchez n'existe pas ou a été déplacée.
+    </p>
+    <p>
+        <a href="./">← Retourner à l'accueil</a>
+    </p>
 
-    include ROOT_PATH."/view/inc/".$_GET['p'].".php";
-    
-}else{
-    include ROOT_PATH."/view/inc/erreur404.php";
-}
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error404</title>
-</head>
-<body>
-    <H1>Error404</H1>
-    <img src="/public/img/404.jpg" alt="">
-    <p>Voici le <a href="acceuil.php">lien pour retourner a l'acceuil</a></p>
-    
-</body>
-</html>
+</div>
