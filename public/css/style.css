@@ -24,6 +24,7 @@ body {
 /* entete et banniere */
 
 .entete {
+    flex: 1;
     width: 100%;
 }
 
@@ -86,7 +87,7 @@ body {
     padding-left: 20px;
 }
 
-/* burger button */ /*
+/* burger button */ 
 .navigation {
     background-color: lightgrey;
     position: sticky;
@@ -139,7 +140,7 @@ body {
     height: 4px;
     background-color: #A90331;
     border-radius: 2px;
-} */
+} 
 
 /* pour les images */
 .img-centree {
@@ -153,7 +154,7 @@ body {
 .img-centree img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /* pour l acceuil classe sommaire */
@@ -337,5 +338,92 @@ body {
 .centers p {
     text-align: center;
 }
+/* media */
+@media screen and (min-width: 640px) {
 
+    .conteneur {
+        flex-direction: column;
+    }
 
+    .burger-btn {
+        display: none;
+    }
+
+    .nav-liste {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: lightgrey;
+        overflow: hidden;
+    }
+
+    .nav-liste li {
+        flex: 1;
+    }
+
+    .nav-lien {
+        height: 50px;
+        width: 100%;
+    }
+
+    .galerie-grille {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .galerie-image {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .conteneur {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .navigation {
+        width: 20%;
+        min-width: 150px;
+        border: 2px solid black;
+        border-radius: 10px;
+        overflow: hidden;
+        top: 0;
+        align-self: flex-start;
+        margin: 10px;
+    }
+
+    .nav-liste {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        border: none;
+        
+    }
+
+    .nav-liste li {
+        flex: none;
+    }
+
+    .nav-lien {
+        height: 50px;
+    }
+
+    .contenu-principal {
+        width: 80%;
+    }
+
+    .galerie-grille {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .galerie-image {
+        width: calc(50% - 10px);
+    }
+}
