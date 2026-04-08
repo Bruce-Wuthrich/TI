@@ -26,12 +26,12 @@
     </div>
     
     <ul class="sommaire">
-        <li><a href="./?p=geographie">Géographie</a></li>
-        <li><a href="./?p=histoire">Histoire</a></li>
-        <li><a href="./?p=culture">Culture</a></li>
-        <li><a href="./?p=galerie">Galerie</a></li>
-        <li><a href="./?p=contact">Contact</a></li>
-        <li><a href="./?p=liens">Liens</a></li>
+        <li><a href="./?p=geographie">Une Brève presentation de Athènes sur son rôle et le monde</a></li>
+        <li><a href="./?p=histoire">Un rappel Historique,de sa fondation à aujourd'hui</a></li>
+        <li><a href="./?p=culture">un tour d'horizon en matière d'art et culture</a></li>
+        <li><a href="./?p=galerie"> Une Galerie de photographies</a></li>
+        <li><a href="./?p=contact">Un formulaire de Contact</a></li>
+        <li><a href="./?p=liens">Des Liens vers des sites partenaires</a></li>
     </ul>
 
     <p class="reference">
