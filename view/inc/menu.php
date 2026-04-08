@@ -1,46 +1,19 @@
-<?php
+<nav class="navigation" id="navigation">
 
+    <button class="burger-btn" id="burger-btn" aria-label="Ouvrir le menu">
+        <span class="burger-barre"></span>
+        <span class="burger-barre"></span>
+        <span class="burger-barre"></span>
+    </button>
 
-require_once './config.php';
+    <ul class="nav-liste" id="nav-liste">
+        <li><a href="./"              class="nav-lien">Accueil</a></li>
+        <li><a href="./?p=geographie" class="nav-lien">Géographie</a></li>
+        <li><a href="./?p=histoire"   class="nav-lien">Histoire</a></li>
+        <li><a href="./?p=culture"    class="nav-lien">Culture</a></li>
+        <li><a href="./?p=galerie"    class="nav-lien">Galerie</a></li>
+        <li><a href="./?p=contact"    class="nav-lien">Contact</a></li>
+        <li><a href="./?p=liens"      class="nav-lien">Liens</a></li>
+    </ul>
 
-
-if(!isset($_GET['p'])){
-
-    include ROOT_PATH. "/view/inc/menu.php";
-
-}
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>menu</title>
-    <link rel="stylesheet" href="/public/css/style.css">
-</head>
-<body>
-     <nav>
-            <div class="navbarre">
-                <div id="logo">
-                    <img src="/public/img/banniere.jpg">
-                </div>
-                <input type="checkbox" id="nav-toggle" class="nav-toggle">
-                <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu">
-                    <span class="hamburgerline"></span>
-                    <span class="hamburgerline"></span>
-                    <span class="hamburgerline"></span>
-                </label>
-                <ul id="liens">
-                <li><a href="acceuil.php">Accueil</a></li>
-                <li><a href="geographie.php">Geographie</a></li>
-                <li><a href="histoire.php">Histoire</a></li>
-                <li><a href="culture.php">Culture</a></li>
-                <li><a href="galerie.php">galerie</a></li>
-                <li><a href="contact.php">Contacts</a></li>
-                <li><a href="liens.php">Liens</a></li>
-                </ul>
-            </div>
-    </nav>
-    
-</body>
-</html>
+</nav>
