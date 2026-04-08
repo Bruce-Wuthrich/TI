@@ -27,7 +27,7 @@ if (array_key_exists($page, $pages)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($titre); ?></title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="lightbox/css/lightbox.css">
 </head>
 <body>
 
@@ -49,7 +49,7 @@ if (array_key_exists($page, $pages)) {
 
     </div>
 
-<script src="js/lightbox-plus-jquery.js"></script>
+<script src="lightbox/js/lightbox-plus-jquery.js"></script>
 <script src="js/menu.js"></script>
 </body>
 </html>
