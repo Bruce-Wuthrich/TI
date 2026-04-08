@@ -1,4 +1,9 @@
-
+ /* pour tout le contenu */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: white;
@@ -171,7 +176,7 @@ body {
 .sommaire a:hover {
     color: black;
 }
-.center h3 { text-align: center;
+.centers h3 { text-align: center;
 }
 /*reference de acceuil wikipedia */
 .reference {
@@ -188,3 +193,149 @@ body {
 .reference a:hover {
     color: black;
 }
+
+/* pour la galerie */
+.galerie-grille {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px 20px;
+}
+
+.galerie-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galerie-image img {
+    width: 100%;
+    max-width: 480px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.galerie-image p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* formulaire */
+.formulaire {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.form-ligne {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-ligne label {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    flex-shrink: 0;
+    font-size: 20px;
+}
+
+.form-ligne input {
+    flex: 1;
+    height: 30px;
+    font-size: 16px;
+    padding: 0 8px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.form-ligne textarea {
+    flex: 1;
+    height: 80px;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.form-bouton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-bouton button {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    background-color: #A90331;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form-bouton button:hover {
+    background-color: #7a0224;
+}
+/* liste de lien dans liens */
+.liens-liste {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    margin: 20px 30px;
+    gap: 10px 0;
+}
+
+.liens-liste li {
+    width: 33.33%;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.liens-liste a {
+    color: #A90331;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.liens-liste a:hover {
+    color: black;
+}
+/* page error*/
+.contenu-page 
+.erreur-lien {
+    text-align: center;
+    display: block;
+    color: #A90331;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 30px;
+}
+
+.contenu-page 
+.erreur-lien:hover {
+    color: black;
+}
+
+.center p {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 30px;
+}
+
+.center h3 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 30px;
+}
+.centers p {
+    text-align: center;
+}
+
+

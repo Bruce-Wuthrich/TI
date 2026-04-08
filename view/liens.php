@@ -6,7 +6,7 @@
     <div class="img-centree">
         <img src="img/liens.jpg" alt="Capitales européennes">
     </div>
-    <div class="center">
+    <div class="centers">
     <p>Découvrez les sites dédiés aux autres capitales européennes :</p>
     </div>
     <ul class="liens-liste">

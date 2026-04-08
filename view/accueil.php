@@ -21,7 +21,7 @@
     La ville s'étend sur la plaine d'Attique, sur les rives de la mer Égée. Elle est le chef-lieu du district régional d'Athènes-Centre et la capitale de la périphérie d'Attique, mais aussi celle du diocèse décentralisé du même nom. Le quartier le plus ancien, Pláka, est situé en contrebas de l'Acropole et comprend notamment la place Monastiráki. Kolonáki est le quartier huppé, à proximité de la place Syntagma. Enfin, Exárcheia est le quartier alternatif et branché de la ville, foyer de l'anarchisme en Grèce et de la contestation populaire depuis la crise. Grâce à son climat méditerranéen et ses nombreux musées, comme le musée de l'Acropole ou le musée national archéologique, Athènes est l'une des principales destinations touristiques d'Europe. En 1985, elle a été désignée comme capitale européenne de la culture et en 2018, comme capitale européenne de l'innovation. Elle a également accueilli les Jeux olympiques d'été en 1896 et en 2004.
     </p>
 
-     <div class="center">
+     <div class="centers">
        <h3>Sommaire</h3> 
     </div>
     
