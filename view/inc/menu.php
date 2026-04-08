@@ -5,7 +5,7 @@
         <span class="burger-barre"></span>
         <span class="burger-barre"></span>
     </button>
-
+<!-- class pour le css et l id pour le js -->
     <ul class="nav-liste" id="nav-liste">
         <li><a href="./"              class="nav-lien">Accueil</a></li>
         <li><a href="./?p=geographie" class="nav-lien">Géographie</a></li>

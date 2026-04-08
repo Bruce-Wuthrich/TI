@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    width: 100%;
+}
+
+
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* entete et banniere */
+
+.entete {
+    width: 100%;
+}
+
+.banniere {
+    background-image: url('../img/banniere.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.titre-capitale {
+    width: 300px;
+    height: 80px;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 80px;
+    opacity: 0.75;
+    border-radius: 25px;
+}
