@@ -22,8 +22,9 @@
     </p>
 
      <div class="center">
-        <h3>Sommaire</h3>
+       <h3>Sommaire</h3> 
     </div>
+    
     <ul class="sommaire">
         <li><a href="./?p=geographie">Géographie</a></li>
         <li><a href="./?p=histoire">Histoire</a></li>

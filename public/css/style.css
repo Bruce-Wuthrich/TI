@@ -81,7 +81,7 @@ body {
     padding-left: 20px;
 }
 
-/* burger button */
+/* burger button */ /*
 .navigation {
     background-color: lightgrey;
     position: sticky;
@@ -134,4 +134,57 @@ body {
     height: 4px;
     background-color: #A90331;
     border-radius: 2px;
+} */
+
+/* pour les images */
+.img-centree {
+    text-align: center;
+    margin: 20px 0;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-centree img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* pour l acceuil classe sommaire */
+.sommaire {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.sommaire li {
+    margin: 10px 0;
+}
+
+.sommaire a {
+    color: #A90331;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sommaire a:hover {
+    color: black;
+}
+.center h3 { text-align: center;
+}
+/*reference de acceuil wikipedia */
+.reference {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 30px;
+}
+
+.reference a {
+    color: #A90331;
+    text-decoration: none;
+}
+
+.reference a:hover {
+    color: black;
 }
